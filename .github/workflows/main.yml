@@ -5,3 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: HamBP/calculate-action@main
+        with:
+          x: 13
+          y: 3
